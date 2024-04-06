@@ -1,1 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #010626; /* Changed background color to #010626 */
+    color:  rgb(75, 67, 150); /* Changed text color to white */
+}
 
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px; /* Increased size of the logo */
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 35px; /* Increased font size of the name */
+}
+
+.buy-art-button {
+    background-color: #503f9b;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.image-container img {
+    max-width: 300%; /* Image width set to maximum */
+    height: auto; /* Ensures image maintains aspect ratio */
+    display: block; /* Ensures image does not have extra space below it */
+    margin: 0 auto; /* Centers the image horizontally */
+}

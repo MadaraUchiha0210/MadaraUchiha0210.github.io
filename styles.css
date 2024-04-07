@@ -31,7 +31,7 @@ header {
 }
 
 .buy-art-button {
-    background-color: #503f9b;
+    background-color: #093773;
     border: none;
     color: rgb(255, 255, 255);
     padding: 12px 24px;
@@ -39,7 +39,14 @@ header {
     text-decoration: none;
     font-size: 18px;
     cursor: pointer;
+    transition: transform 0.3s ease; /* Adding transition for smooth effect */
+    border-radius: 10px; /* Setting border radius to 10 pixels for curved edges */
 }
+
+.buy-art-button:hover {
+    transform: scale(1.2); /* Growing the button by 20% */
+}
+
 
 .image-container img {
     max-width: 300%; /* Image width set to maximum */
